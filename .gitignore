@@ -6,7 +6,7 @@ tmp/*.db
 
 # environment
 .env
-.en.test
+.env.test
 
 # build
 build
