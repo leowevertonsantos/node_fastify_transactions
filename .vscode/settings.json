@@ -1,0 +1,13 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "${workspaceFolder:app-intro}/db/app.db",
+      "name": "sqlite-1",
+      "group": "leo"
+    }
+  ],
+  "sqltools.useNodeRuntime": true,
+  "dotenv.enableAutocloaking": false
+}
