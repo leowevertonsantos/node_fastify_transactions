@@ -3,7 +3,7 @@ import { execSync } from "node:child_process";
 import { beforeAll, expect, it, describe, afterAll, beforeEach } from "vitest";
 import { app } from "../app";
 
-describe("Transactions", () => {
+describe("Transactions ", () => {
   beforeAll(async () => {
     await app.ready();
   });
