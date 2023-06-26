@@ -20,5 +20,5 @@ if (!_environment.success) {
   console.error("Invalid environment variables!", _environment.error.format());
   throw new Error("Invalid environment variables!");
 }
-console.log(_environment.data);
+
 export const environment = _environment.data;
